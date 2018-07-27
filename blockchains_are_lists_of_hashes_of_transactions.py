@@ -14,7 +14,7 @@ tx_amount = get_user_input()
 add_value(tx_amount)
 
 add_value(last_transaction=get_last_blockchain_value(), transaction_amount=tx_amount) 
-J
+
 add_value(tx_amount, get_last_blockchain_value())
 
 print(blockchain) 
