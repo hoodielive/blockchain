@@ -18,3 +18,5 @@ add_value(last_transaction=get_last_blockchain_value(), transaction_amount=tx_am
 add_value(tx_amount, get_last_blockchain_value())
 
 print(blockchain) 
+
+
